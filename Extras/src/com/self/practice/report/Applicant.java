@@ -1,5 +1,7 @@
 package com.self.practice.report;
 
+import com.self.practice.report.constants.ExamResult;
+
 public class Applicant implements Comparable<Integer> {
 
 	private String id;
@@ -25,13 +27,6 @@ public class Applicant implements Comparable<Integer> {
 		double percentage = (this.getMarks() * 100) / this.getTotalMarks();
 		this.setPercent(percentage);
 		return percentage;
-	}
-	
-	public enum ExamResult {
-		PASSED,
-		DISQUALIFIED,
-		QUALIFIED,
-		FAILED;
 	}
 	
 	@Override
