@@ -1,0 +1,168 @@
+DEBUG   2019-07-06 17:44:52,557 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 17:44:52,784 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 17:44:53,583 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 17:44:53,639 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:25:49,488 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:25:49,707 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:25:50,486 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:25:50,539 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:30:49,520 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:30:49,764 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:30:50,538 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:30:50,595 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:30:53,831 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:30:54,211 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:30:54,261 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:30:54,273 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:30:55,792 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:30:55,887 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:30:55,929 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:30:55,939 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:30:57,445 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:30:57,520 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:30:57,551 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:30:57,559 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:44:57,877 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:44:58,094 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:44:58,868 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:44:58,923 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:45:01,969 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:45:02,265 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:45:02,318 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:45:02,339 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:45:03,852 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:45:03,973 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:45:04,011 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:45:04,018 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:45:05,587 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:45:05,660 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:45:05,691 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:45:05,699 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:55:02,449 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:55:02,676 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:55:03,480 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:55:03,531 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:55:06,559 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:55:06,893 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:55:06,955 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:55:06,971 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:55:08,438 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:55:08,512 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:55:08,546 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:55:08,556 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:55:10,008 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:55:10,090 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:55:10,123 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:55:10,131 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:56:45,407 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:56:45,709 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:56:46,741 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:56:46,812 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:56:50,502 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:56:50,825 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:56:50,883 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:56:50,894 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:56:52,514 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:56:52,593 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:56:52,627 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:56:52,636 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:56:54,057 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:56:54,130 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:56:54,160 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:56:54,167 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:58:02,411 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:58:02,697 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:58:03,779 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:58:03,877 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:58:07,904 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:58:08,314 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:58:08,364 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:58:08,374 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:58:09,936 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:58:10,022 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:58:10,057 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:58:10,066 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 18:58:11,596 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 18:58:11,668 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 18:58:11,701 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 18:58:11,709 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:11:56,764 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:11:57,189 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:11:58,225 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:11:58,282 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:12:01,445 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:12:01,844 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:12:01,926 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:12:01,940 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:12:03,560 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:12:03,647 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:12:03,691 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:12:03,703 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:12:05,423 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:12:05,499 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:12:05,535 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:12:05,544 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:14:24,002 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:14:24,322 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:14:25,258 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:14:25,314 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:14:28,345 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:14:28,755 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:14:28,817 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:14:28,829 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:14:30,485 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:14:30,580 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:14:30,620 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:14:30,630 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:14:32,341 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:14:32,420 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:14:32,448 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:14:32,457 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:28:33,449 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:28:33,726 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:28:34,560 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:28:34,615 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:28:37,657 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:28:38,044 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:28:38,111 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:28:38,122 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:28:39,683 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:28:39,763 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:28:39,797 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:28:39,807 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:28:41,420 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:28:41,497 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:28:41,524 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:28:41,533 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:30:40,954 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:30:41,240 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:30:42,156 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:30:42,209 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:30:45,186 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:30:45,491 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:30:45,546 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:30:45,556 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:30:47,058 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:30:47,134 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:30:47,171 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:30:47,181 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-06 23:30:48,695 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-06 23:30:48,766 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-06 23:30:48,802 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-06 23:30:48,810 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-07 14:26:14,057 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-07 14:26:14,644 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-07 14:26:16,139 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-07 14:26:16,227 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-07 14:26:19,661 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-07 14:26:20,027 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-07 14:26:20,079 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-07 14:26:20,091 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-07 14:26:21,714 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-07 14:26:21,818 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-07 14:26:21,866 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-07 14:26:21,875 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
+DEBUG   2019-07-07 14:26:23,389 [main] org.apache.pdfbox.pdfparser.COSParser  - Stop checking xref offsets as at least one (1 0 R) couldn't be dereferenced
+DEBUG   2019-07-07 14:26:23,471 [main] org.apache.pdfbox.pdfparser.COSParser  - Replaced read xref table with the results of a brute force search
+INFO    2019-07-07 14:26:23,503 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F1 are not implemented in PDFBox and will be ignored
+INFO    2019-07-07 14:26:23,514 [main] org.apache.pdfbox.pdmodel.font.PDCIDFontType2  - OpenType Layout tables used in font CIDFont+F2 are not implemented in PDFBox and will be ignored
