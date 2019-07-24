@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import com.google.common.collect.ImmutableList;
 import com.practice.zensar.AppUtil;
-import com.self.practice.report.Applicant.ExamResult;
+import com.self.practice.report.constants.ExamResult;
 
 public class PredictQualificationRange {
 
