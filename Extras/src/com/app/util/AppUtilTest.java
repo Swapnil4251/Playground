@@ -1,4 +1,4 @@
-package com.practice.zensar;
+package com.app.util;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

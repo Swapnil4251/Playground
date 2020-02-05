@@ -31,14 +31,11 @@
 			<artifactId>mail</artifactId>
 			<version>1.4</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jdom/jdom2 -->
 		<dependency>
 			<groupId>org.jdom</groupId>
 			<artifactId>jdom2</artifactId>
@@ -50,21 +47,26 @@
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
 			<version>2.0.6</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
-		<!-- <dependency> <groupId>net.sf.json-lib</groupId> <artifactId>json-lib</artifactId> 
-			<version>2.2.3</version> <classifier>jdk15</classifier> </dependency> -->
+		<dependency>
+			<groupId>com.tngtech.java</groupId>
+			<artifactId>junit-dataprovider</artifactId>
+			<version>1.13.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.13.1</version>
+		</dependency>
 	</dependencies>
-
 </project>

@@ -6,8 +6,8 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.app.util.AppUtil;
 import com.google.common.collect.ImmutableList;
-import com.practice.zensar.AppUtil;
 import com.self.practice.report.constants.ExamResult;
 
 public class PredictQualificationRange {
