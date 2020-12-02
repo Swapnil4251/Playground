@@ -1,5 +1,11 @@
 package com.app.util;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.junit.Test;
@@ -53,4 +59,15 @@ public class AppUtilTest {
 		System.out.println("root.C[0].c2[0].c22.c221 : " + value);
 	}
 	
+	@Test
+	public void testFormatMessage() {
+		Map<String, String> params = new HashMap<String, String>();
+		params.put("name", "Swapnil Sarwade");
+		params.put("city", "Ambajogai");
+		params.put("profession", "Software Engineer");
+		
+		String result = AppUtil.formatMessage("My name is {name}. I live in {city} and I am a {profession}.", params);
+		System.out.println(AppUtil.formatMessage("My name is {name}. I live in {city} and I am a {profession}.", params));
+		assertEquals("My name is Swapnil Sarwade. I live in Ambajogai and I am a Software Engineer.", result);
+	}
 }

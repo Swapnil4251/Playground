@@ -89,6 +89,7 @@ public class DuplicateFilesCleaner {
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private static void moveFiles(StringBuilder reportContent, ImmutableSet<MacFile> filesToRemove)
 			throws IOException, InterruptedException {
 		for (MacFile f : filesToRemove) {

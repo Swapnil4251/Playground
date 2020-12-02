@@ -1,6 +1,8 @@
 package com.app.util;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -89,5 +91,26 @@ public class AppUtil {
 		}
 
 		return "";
+	}
+	
+	public static String formatMessage(String messageText, Map<String, String> params) {
+		if (messageText.contains("{") && messageText.contains("}")) {
+			for (int i = 0; i < messageText.length();) {
+				int start = messageText.indexOf('{', i);
+				int end = messageText.indexOf('}', start);
+				if (start >= 0 && end > start) {
+					String key = messageText.substring(start+1, end);
+					messageText = messageText.replaceAll("\\{" + key + "\\}", params.get(key));
+					i = ++end;
+				} else {
+					break;
+				}
+			}
+		}
+		return messageText;
+	}
+	
+	public static Map<?, ?> emptyMap() {
+		return new HashMap<>();
 	}
 }
