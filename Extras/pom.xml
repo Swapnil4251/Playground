@@ -61,7 +61,6 @@
 			<groupId>com.tngtech.java</groupId>
 			<artifactId>junit-dataprovider</artifactId>
 			<version>1.13.1</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.assertj</groupId>
