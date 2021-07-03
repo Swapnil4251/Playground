@@ -11,6 +11,8 @@ import org.eclipse.ui.PlatformUI;
  */
 public class Application implements IApplication {
 
+	public static final String DEFAULT_ROOT_DIRECTORY = "/Users/swapnilsarwade/eclipse-workspace/GIDE";
+
 	@Override
 	public Object start(IApplicationContext context) {
 		Display display = PlatformUI.createDisplay();

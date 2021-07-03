@@ -11,6 +11,8 @@ import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.StyledString;
 import org.eclipse.swt.graphics.Image;
 
+import com.gide.assessment.logic.SearchResult;
+
 public class ViewLabelProvider extends LabelProvider implements IStyledLabelProvider {
 
 	private ImageDescriptor directoryImage;
@@ -30,6 +32,11 @@ public class ViewLabelProvider extends LabelProvider implements IStyledLabelProv
 				styledString.append(" ( " + files.length + " ) ", StyledString.COUNTER_STYLER);
 			}
 			return styledString;
+		} else if (element instanceof SearchResult) {
+			SearchResult result = (SearchResult) element;
+			return new StyledString(result.getFile().getAbsolutePath());
+		} else if (element instanceof String) {
+			return new StyledString(element.toString());
 		}
 		return null;
 	}

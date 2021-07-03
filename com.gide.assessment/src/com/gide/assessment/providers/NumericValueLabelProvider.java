@@ -3,10 +3,13 @@ package com.gide.assessment.providers;
 import java.io.File;
 
 import org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.IStyledLabelProvider;
+
+import com.gide.assessment.logic.SearchResult;
+
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.StyledString;
 
-public class FileSizeLabelProvider extends LabelProvider implements IStyledLabelProvider {
+public class NumericValueLabelProvider extends LabelProvider implements IStyledLabelProvider {
 
 	@Override
 	public StyledString getStyledText(Object element) {
@@ -16,7 +19,10 @@ public class FileSizeLabelProvider extends LabelProvider implements IStyledLabel
 				return new StyledString("0");
 			}
 			return new StyledString(String.valueOf(file.length()));
+		} else if (element instanceof SearchResult) {
+			SearchResult result = (SearchResult) element;
+			return new StyledString(String.valueOf(result.getLines().size()));
 		}
-		return null;
+		return new StyledString();
 	}
 }

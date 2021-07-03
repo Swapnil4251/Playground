@@ -2,8 +2,6 @@ package com.gide.assessment.providers;
 
 import java.io.File;
 
-import javax.inject.Inject;
-
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;
 
@@ -11,7 +9,6 @@ import com.gide.assessment.logic.FileBrowsingModel;
 
 public class ViewContentProvider implements ITreeContentProvider {
 
-	@Inject
 	FileBrowsingModel model;
 	
 	public ViewContentProvider(FileBrowsingModel model) {

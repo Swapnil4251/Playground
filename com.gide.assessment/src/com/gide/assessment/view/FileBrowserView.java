@@ -36,9 +36,11 @@ import org.eclipse.ui.part.ViewPart;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.FrameworkUtil;
 
+import com.gide.assessment.Application;
 import com.gide.assessment.logic.FileBrowsingModel;
 import com.gide.assessment.logic.ScanModelDataBinding;
-import com.gide.assessment.providers.FileSizeLabelProvider;
+import com.gide.assessment.messages.Messages;
+import com.gide.assessment.providers.NumericValueLabelProvider;
 import com.gide.assessment.providers.ViewContentProvider;
 import com.gide.assessment.providers.ViewLabelProvider;
 
@@ -76,7 +78,7 @@ public class FileBrowserView extends ViewPart {
 		});
 
 		Button button = new Button(parent, SWT.PUSH);
-		button.setText("Browse...");
+		button.setText(Messages.getProperty("BrowseButton"));
 
 		button.addListener(SWT.Selection, event -> {
 			setBrowseDirectory(openDialogAndGetRootFolderToBrowse(parent, true));
@@ -93,16 +95,16 @@ public class FileBrowserView extends ViewPart {
 		viewer.getTree().setHeaderVisible(true);
 
 		TreeViewerColumn mainColumn = new TreeViewerColumn(viewer, SWT.NONE);
-		mainColumn.getColumn().setText("Name");
+		mainColumn.getColumn().setText(Messages.getProperty("NameColumnLabel"));
 		mainColumn.getColumn().setWidth(200);
 		mainColumn.setLabelProvider(
 				new DelegatingStyledCellLabelProvider(new ViewLabelProvider(createImageDescriptor())));
 
 		TreeViewerColumn fileSizeColumn = new TreeViewerColumn(viewer, SWT.NONE);
-		fileSizeColumn.getColumn().setText("Size");
+		fileSizeColumn.getColumn().setText(Messages.getProperty("FilesizeLabel"));
 		fileSizeColumn.getColumn().setWidth(100);
 		fileSizeColumn.getColumn().setAlignment(SWT.RIGHT);
-		fileSizeColumn.setLabelProvider(new DelegatingStyledCellLabelProvider(new FileSizeLabelProvider()));
+		fileSizeColumn.setLabelProvider(new DelegatingStyledCellLabelProvider(new NumericValueLabelProvider()));
 
 		viewer.getTree().setSortColumn(fileSizeColumn.getColumn());
 		viewer.getTree().setSortDirection(SWT.UP);
@@ -120,23 +122,19 @@ public class FileBrowserView extends ViewPart {
 	}
 
 	private void openFile(DoubleClickEvent event) {
-
 		File file = null;
 		Object selection = ((TreeSelection) event.getSelection()).getFirstElement();
-
 		if (selection instanceof File) {
 			file = (File) selection;
 		}
-
 		if (file != null) {
 			IWorkbenchPage page = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage();
-
 			try {
 				IFileStore fileStore = EFS.getStore(file.toURI());
 				IEditorInput input = new FileStoreEditorInput(fileStore);
 				page.openEditor(input, EditorsUI.DEFAULT_TEXT_EDITOR_ID);
 			} catch (CoreException e) {
-				e.printStackTrace();
+				logger.error(e);
 			}
 		}
 	}
@@ -146,11 +144,11 @@ public class FileBrowserView extends ViewPart {
 	}
 
 	private String openDialogAndGetRootFolderToBrowse(Composite parent, boolean showAtStart) {
-		String rootDir = "/Users/swapnilsarwade/eclipse-workspace/GIDE";
+		String rootDir = Application.DEFAULT_ROOT_DIRECTORY;
 		if (showAtStart) {
 			try {
-				boolean isYes = MessageDialog.openQuestion(parent.getShell(), "Please confirm",
-						"Do you want to select a directory?");
+				boolean isYes = MessageDialog.openQuestion(parent.getShell(), Messages.getProperty("Browse.title"),
+						Messages.getProperty("Browse.message"));
 				if (isYes) {
 					DirectoryDialog dialog = new DirectoryDialog(parent.getShell());
 					dialog.setFilterPath(rootDir);
