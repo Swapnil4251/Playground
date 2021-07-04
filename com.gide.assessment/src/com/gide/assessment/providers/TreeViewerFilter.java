@@ -1,4 +1,4 @@
-package com.gide.assessment.view;
+package com.gide.assessment.providers;
 
 import java.io.File;
 
@@ -17,5 +17,4 @@ public class TreeViewerFilter extends ViewerFilter {
 		}
 		return false;
 	}
-
 }

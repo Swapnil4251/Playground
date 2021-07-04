@@ -41,6 +41,8 @@ import com.gide.assessment.logic.FileBrowsingModel;
 import com.gide.assessment.logic.ScanModelDataBinding;
 import com.gide.assessment.messages.Messages;
 import com.gide.assessment.providers.NumericValueLabelProvider;
+import com.gide.assessment.providers.TreeViewSorter;
+import com.gide.assessment.providers.TreeViewerFilter;
 import com.gide.assessment.providers.ViewContentProvider;
 import com.gide.assessment.providers.ViewLabelProvider;
 
@@ -65,32 +67,22 @@ public class FileBrowserView extends ViewPart {
 
 		GridLayout layout = new GridLayout(2, false);
 		parent.setLayout(layout);
+		
+		createFilterTextField(parent);
+		createBrowseButton(parent);
+		createSelectedDirectoryLabel(parent);
 
-		searchText = new Text(parent, SWT.SEARCH);
-		searchText.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 1, 1));
-		searchText.setToolTipText("Search files");
+		createTreeViewer(parent);
+		ScanModelDataBinding.bind(this, this.getModel());
+		
+		updateWidgets();
+	}
 
-		searchText.addModifyListener(event -> {
-			String str = ((Text) event.getSource()).getText();
-			if (str != null && !str.isBlank()) {
-				viewer.setInput(getModel().filterFiles(str));
-			}
-		});
-
-		Button button = new Button(parent, SWT.PUSH);
-		button.setText(Messages.getProperty("BrowseButton"));
-
-		button.addListener(SWT.Selection, event -> {
-			setBrowseDirectory(openDialogAndGetRootFolderToBrowse(parent, true));
-			updateWidgets();
-		});
-
-		selectedDirectoryLabel = new Label(parent, SWT.HORIZONTAL);
-		selectedDirectoryLabel.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 2, 1));
-
+	private void createTreeViewer(Composite parent) {
 		viewer = new TreeViewer(parent);
 		viewer.setContentProvider(new ViewContentProvider(getModel()));
-
+		viewer.setComparator(new TreeViewSorter());
+		
 		viewer.getTree().setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 2, 1));
 		viewer.getTree().setHeaderVisible(true);
 
@@ -110,10 +102,33 @@ public class FileBrowserView extends ViewPart {
 		viewer.getTree().setSortDirection(SWT.UP);
 		viewer.addFilter(new TreeViewerFilter());
 		viewer.addDoubleClickListener(this::openFile);
-		
-		ScanModelDataBinding.bind(this, this.getModel());
-		updateWidgets();
+	}
 
+	private void createSelectedDirectoryLabel(Composite parent) {
+		selectedDirectoryLabel = new Label(parent, SWT.HORIZONTAL);
+		selectedDirectoryLabel.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 2, 1));
+	}
+
+	private void createBrowseButton(Composite parent) {
+		Button button = new Button(parent, SWT.PUSH);
+		button.setText(Messages.getProperty("BrowseButton"));
+
+		button.addListener(SWT.Selection, event -> {
+			setBrowseDirectory(openDialogAndGetRootFolderToBrowse(parent, true));
+			updateWidgets();
+		});
+	}
+
+	private void createFilterTextField(Composite parent) {
+		searchText = new Text(parent, SWT.SEARCH);
+		searchText.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 1, 1));
+		searchText.setToolTipText("Search files");
+
+		searchText.addModifyListener(event -> {
+			String str = ((Text) event.getSource()).getText();
+			getModel().setSearchText(str);
+			viewer.setInput(getModel().browseFiles(getBrowseDirectory()));
+		});
 	}
 
 	@Override
@@ -156,7 +171,7 @@ public class FileBrowserView extends ViewPart {
 					logger.info("Selected folder : " + rootDir);
 				}
 			} catch (Exception e) {
-				e.printStackTrace();
+				logger.error("Error while switching browse directory", e);
 			}
 		}
 		return rootDir;
@@ -187,14 +202,6 @@ public class FileBrowserView extends ViewPart {
 		Bundle bundle = FrameworkUtil.getBundle(ViewLabelProvider.class);
 		URL url = FileLocator.find(bundle, new Path("icons/folder.png"), null);
 		return ImageDescriptor.createFromURL(url);
-	}
-
-	public String getRootDirectory() {
-		return rootDirectory;
-	}
-
-	public void setRootDirectory(String rootDirectory) {
-		this.rootDirectory = rootDirectory;
 	}
 
 	public TreeViewer getViewer() {

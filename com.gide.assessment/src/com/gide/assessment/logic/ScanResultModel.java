@@ -51,10 +51,11 @@ public class ScanResultModel {
 	private void search(File file, String searchText, IProgressMonitor monitor) {
 		if (file.isDirectory()) {
 			String[] files = file.list();
-			monitor.subTask("Searching " + searchText + " in subfolder : " + file);
+			monitor.subTask("Searching '" + searchText + "' in subfolder : " + file);
 			
 			for (int i = 0; i < files.length; i++) {
 				try {
+					Thread.sleep(5000);
 					File tempFile = new File(file, files[i]);
 					monitor.subTask("Searching '" + searchText + "' in " + tempFile);
 					search(tempFile, searchText, monitor);

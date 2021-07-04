@@ -11,6 +11,8 @@ import java.util.stream.Stream;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import com.gide.assessment.util.AppUtil;
+
 public class FileBrowsingModel extends ModelObject {
 
 	private String rootDirectory;
@@ -42,7 +44,7 @@ public class FileBrowsingModel extends ModelObject {
 			if (StringUtils.isNotBlank(filterPattern)) {
 				stream = stream.filter(f -> f.getName().contains(filterPattern));
 			}
-			stream = stream.sorted((o1, o2) -> (int) (o1.length() - o2.length()));
+			stream = stream.sorted((o1, o2) -> AppUtil.compareFilesizes(o1, o2));
 			this.files = stream.collect(Collectors.toList());
 			tFiles = this.files.toArray();
 		} catch (Exception e) {

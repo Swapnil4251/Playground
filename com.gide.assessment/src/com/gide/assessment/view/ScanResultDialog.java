@@ -86,7 +86,8 @@ public class ScanResultDialog extends Dialog {
 	
 	private String getSearchResultMessage() {
 		int totalSearchCount = model.getScanResult().values().stream().mapToInt(result -> result.getLines().size()).sum();
-		return Messages.getProperty("SearchResult.message", model.getSearchText(), model.getScanResult().size(), totalSearchCount);
+		return Messages.getProperty(totalSearchCount > 0 ? "SearchResult.message" : "SearchResult.NoTextFound", 
+				model.getSearchText(), model.getScanResult().size(), totalSearchCount);
 	}
 	
 	@Override

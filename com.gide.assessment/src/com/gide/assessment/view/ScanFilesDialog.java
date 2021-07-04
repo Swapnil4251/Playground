@@ -42,15 +42,15 @@ public class ScanFilesDialog extends Dialog {
 	}
 
 	private void createSearchTextField(Composite container) {
-		Label lbtFirstName = new Label(container, SWT.NONE);
-		lbtFirstName.setText("Search text in files");
+		Label labelSearchText = new Label(container, SWT.NONE);
+		labelSearchText.setText("Search text in files");
 
-		GridData dataFirstName = new GridData();
-		dataFirstName.grabExcessHorizontalSpace = true;
-		dataFirstName.horizontalAlignment = GridData.FILL;
+		GridData griddata = new GridData();
+		griddata.grabExcessHorizontalSpace = true;
+		griddata.horizontalAlignment = GridData.FILL;
 
 		text = new Text(container, SWT.BORDER);
-		text.setLayoutData(dataFirstName);
+		text.setLayoutData(griddata);
 	}
 
 	@Override

@@ -21,6 +21,6 @@ public class ScanFilesHandler extends AbstractHandler {
 	
 	@SuppressWarnings("deprecation")
 	private String getBrowseDirectory(IWorkbenchWindow window) {
-		return ((FileBrowserView) window.getPages()[0].getViews()[0]).getRootDirectory();
+		return ((FileBrowserView) window.getPages()[0].getViews()[0]).getBrowseDirectory();
 	}
 }
