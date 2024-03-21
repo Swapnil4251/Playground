@@ -2,8 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage {
-            echo "Fetch from Git repository"
+        stage("Build application") {
+            steps {
+                echo "Building the application"
+                sh """
+                    cd NodeJs
+                    npm install
+                """
+            }
         }
     }
 }
