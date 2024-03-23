@@ -17,9 +17,11 @@ pipeline {
         }
 
         stage('Build image') {
-            step {
-                docker.withRegistry('http://registry.local:5000') {
-                    docker.build("getintodevops/hellonode").push("latest")
+            steps {
+                script {
+                    docker.withRegistry('http://registry.local:5000') {
+                        docker.build("getintodevops/hellonode").push("latest")
+                    }
                 }
             }
         }
