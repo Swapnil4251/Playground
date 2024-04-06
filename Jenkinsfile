@@ -18,9 +18,10 @@ pipeline {
 
         stage('Build image') {
             steps {
+                echo "Building the image from Dockerfile"
                 script {
-                    docker.withRegistry('http://registry.local:5000') {
-                        docker.build("getintodevops/hellonode").push("latest")
+                    docker.withRegistry('http://127.0.0.1:5000') {
+                        docker.build("node-app", "-f ./NodeJs/Dockerfile ./NodeJs").push("latest")
                     }
                 }
             }
