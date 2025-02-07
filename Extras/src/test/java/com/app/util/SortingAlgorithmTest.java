@@ -1,6 +1,7 @@
-package com.interview.pratice.sorting;
+package com.app.util;
 
-import org.junit.Test;
+import com.interview.pratice.sorting.SelectionSort;
+import org.junit.jupiter.api.Test;
 
 public class SortingAlgorithmTest {
 	

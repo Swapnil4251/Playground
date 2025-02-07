@@ -1,14 +1,13 @@
 package com.app.util;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AppUtilTest {
 

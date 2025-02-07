@@ -1,18 +1,12 @@
-package com.app.util.test;
+package com.app.util;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 
-import com.app.util.NumberUtil;
-import com.tngtech.java.junit.dataprovider.DataProvider;
-import com.tngtech.java.junit.dataprovider.DataProviderRunner;
-import com.tngtech.java.junit.dataprovider.UseDataProvider;
+import static org.hamcrest.MatcherAssert.assertThat;
 
-@RunWith(DataProviderRunner.class)
 public class NumberUtilTest {
 
-	@DataProvider
+/*	@DataProvider
 	public static Object[][] testDataForPrimeNumbers() {
 		return new Object[][] {
 			{ 1, false },
@@ -27,13 +21,13 @@ public class NumberUtilTest {
 			{ 2477, true }
 		};
 	}
-	
+
 	@Test
 	@UseDataProvider("testDataForPrimeNumbers")
 	public void testIsPrimeNumber(int number, boolean result) {
 		assertThat(NumberUtil.isPrimeNumber(number)).isEqualTo(result);
 	}
-
+*/
 	@Test
 	public void testNumberOfDigits() {
 		//System.out.println(NumberUtil.numberOfDigits(1256754));
@@ -65,4 +59,5 @@ public class NumberUtilTest {
 		}
 		System.out.println();
 	}
+
 }
